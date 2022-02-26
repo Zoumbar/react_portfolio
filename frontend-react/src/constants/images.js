@@ -9,6 +9,7 @@ import asus from '../assets/asus.png'
 import bgIMG from '../assets/bgIMG.png'
 import bgWhite from '../assets/bgWhite.png'
 import bolt from '../assets/bolt.png'
+import circle from '../assets/circle.svg'
 import cpp from '../assets/cpp.png'
 import css from '../assets/css.png'
 import email from '../assets/email.png'
@@ -44,7 +45,8 @@ export default{
     asus, 
     bgIMG, 
     bgWhite, 
-    bolt, 
+    bolt,
+    circle,
     cpp, 
     css, 
     email, 
