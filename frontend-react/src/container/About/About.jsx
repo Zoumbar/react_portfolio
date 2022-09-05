@@ -51,4 +51,4 @@ const About = () => {
   )
 }
 
-export default AppWrap(About, 'about')
+export default AppWrap(About, 'Qui%20suis-je%20?')

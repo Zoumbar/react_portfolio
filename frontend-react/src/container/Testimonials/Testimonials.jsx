@@ -6,7 +6,7 @@ import { AppWrap, MotionWrap } from '../../wrapper';
 import { urlFor, client } from '../../client';
 import './Testimonials.scss';
 
-const Testimonial = () => {
+const Testimonials = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [testimonials, setTestimonials] = useState([]);
   const [brands, setBrands] = useState([]);
@@ -32,7 +32,7 @@ const Testimonial = () => {
     <>
       {testimonials.length && (
         <>
-          <div className="app__testimonial-item app__flex" id='testimonials'>
+          <div className="app__testimonial-item app__flex">
             <img src={urlFor(testimonials[currentIndex].imgurl)} alt={testimonials[currentIndex].name} />
             <div className="app__testimonial-content">
               <p className="p-text">{testimonials[currentIndex].feedback}</p>
@@ -71,7 +71,7 @@ const Testimonial = () => {
 };
 
 export default AppWrap(
-  MotionWrap(Testimonial, 'app__testimonial'),
-  'testimonial',
+  MotionWrap(Testimonials, 'app__testimonial'),
+  'Témoignages',
   'app__primarybg',
 );
