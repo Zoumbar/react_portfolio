@@ -53,7 +53,9 @@ const Skills = () => {
               key={experience.year}
             >
               <div className="app__skills-exp-year">
-                <p className="bold-text">{experience.year}</p>
+                <p className="bold-text">{experience.beginning}</p>
+                <p className='bold-text'> - </p>
+                <p className="bold-text">{experience.end}</p>
               </div>
               <motion.div className="app__skills-exp-works">
                 {experience.works?.map((work) => (
@@ -90,6 +92,6 @@ const Skills = () => {
 
 export default AppWrap(
   MotionWrap(Skills, 'app__skills'),
-  'Expériences',
+  'Experiences',
   'app__whitebg',
 );

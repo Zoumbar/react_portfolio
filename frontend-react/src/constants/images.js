@@ -33,6 +33,9 @@ import skype from '../assets/skype.png'
 import spotify from '../assets/spotify.png'
 import typescript from '../assets/typescript.png'
 import vue from '../assets/vue.png'
+import logoide from '../assets/icons8-idée.svg'
+import esteillu from '../assets/este_illu.png'
+import aboutGif from '../assets/juicy-zoom-meeting.gif'
 
 export default{
     about01,
@@ -70,4 +73,7 @@ export default{
     spotify, 
     typescript, 
     vue,
+    logoide,
+    esteillu,
+    aboutGif,
 };
