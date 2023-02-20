@@ -4,6 +4,27 @@
     flex-direction: column;
 }
 
+.app_profile_pres{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-direction: row;
+
+
+    .profile_image{
+        display: flex;
+    }
+
+    .profile_desc{
+        display: flex;
+        margin: 3rem;
+        flex-direction: column ;
+        color: black;
+
+    }
+    
+}
+
 .app__profiles{
     display: flex;
     justify-content: center;

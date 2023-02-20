@@ -81,6 +81,6 @@ const Footer = () => {
 
 export default AppWrap(
   MotionWrap(Footer, 'app__footer'),
-  'Contactez%20moi%20!',
+  'Contactez-moi',
   'app__whitebg',
 );
