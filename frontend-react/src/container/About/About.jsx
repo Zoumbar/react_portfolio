@@ -31,16 +31,17 @@ const About = () => {
           />
         </div>
         <div className="profile_desc">
-          <h3>Salut à toi, moi c'est Esteban</h3>
+          <h3>Salut, moi c'est Esteban</h3>
           <br />
           <p>
             Je suis développeur web full-stack. Titulaire d'un mastère en Dev
             Web et Mobile, <br /> obtenu a L'Institut de l'Internet et du
-            Multimédia(IIM). <br /> J'ai travaillé 2 ans en alternance chez
-            ISEE-U, une agence du web basée à Perpignan,
-            <br /> dans le sud de la France.
-            <br /> Aujourd'hui je suis consultant chez Solutec en développement
-            web.
+            Multimédia (IIM). <br /> J'ai travaillé 2 ans en alternance chez
+            ISEE-U, un studio web basée à Perpignan,
+            <br /> dans le sud de la France, afin de valider mon diplôme.
+            <br /> Aujourd'hui, je suis consultant chez Solutec en développement
+            web et je recherche
+            <br /> une mission chez un de leurs client partenaire.
           </p>
         </div>
       </div>
