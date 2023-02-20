@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import "./About.scss";
 import { urlFor, client } from "../../client";
 import { AppWrap } from "../../wrapper";
-import { images } from '../../constants';
+import { images } from "../../constants";
 
 const About = () => {
   const [abouts, setAbouts] = useState([]);
@@ -22,17 +22,26 @@ const About = () => {
       </h2>
       <div className="app_profile_pres">
         <div className="profile_image">
-        <motion.img
-          whileInView={{scale: [0,1]}}
-          transition={{duration: 1, ease:'easeInOut'}}
-          src={images.aboutGif}
-          alt='profile_circle'
-          className="overlay_circle"
-        />
+          <motion.img
+            whileInView={{ scale: [0, 1] }}
+            transition={{ duration: 1, ease: "easeInOut" }}
+            src={images.aboutGif}
+            alt="profile_circle"
+            className="overlay_circle"
+          />
         </div>
         <div className="profile_desc">
-          <h3>Coucou c'est moi</h3>
-          <p>Je fais une petite description rapidos</p>
+          <h3>Salut à toi, moi c'est Esteban</h3>
+          <br />
+          <p>
+            Je suis développeur web full-stack. Titulaire d'un mastère en Dev
+            Web et Mobile, <br /> obtenu a L'Institut de l'Internet et du
+            Multimédia. <br /> J'ai travaillé 2 ans en alternance chez ISEE-U,
+            une agence du web basée à Perpignan,
+            <br /> dans le sud de la France.
+            <br /> Aujourd'hui je suis consultant chez Solutec en développement
+            web.
+          </p>
         </div>
       </div>
       <h2 className="head-text">
