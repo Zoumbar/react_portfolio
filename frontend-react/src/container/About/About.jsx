@@ -36,8 +36,8 @@ const About = () => {
           <p>
             Je suis développeur web full-stack. Titulaire d'un mastère en Dev
             Web et Mobile, <br /> obtenu a L'Institut de l'Internet et du
-            Multimédia. <br /> J'ai travaillé 2 ans en alternance chez ISEE-U,
-            une agence du web basée à Perpignan,
+            Multimédia(IIM). <br /> J'ai travaillé 2 ans en alternance chez
+            ISEE-U, une agence du web basée à Perpignan,
             <br /> dans le sud de la France.
             <br /> Aujourd'hui je suis consultant chez Solutec en développement
             web.
